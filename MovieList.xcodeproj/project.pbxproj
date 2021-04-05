@@ -58,6 +58,9 @@
 		42D9CF7D261B9FBF00E4435A /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
+				42D9CF9A261BA0FB00E4435A /* Common */,
+				42D9CF99261BA0AD00E4435A /* Domain */,
+				42D9CF96261BA07C00E4435A /* Presentation */,
 				42D9CF7E261B9FBF00E4435A /* AppDelegate.swift */,
 				42D9CF80261B9FBF00E4435A /* SceneDelegate.swift */,
 				42D9CF82261B9FBF00E4435A /* ViewController.swift */,
@@ -68,6 +71,59 @@
 				42D9CF87261B9FBF00E4435A /* MovieList.xcdatamodeld */,
 			);
 			path = MovieList;
+			sourceTree = "<group>";
+		};
+		42D9CF96261BA07C00E4435A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				42D9CF98261BA09000E4435A /* ViewModels */,
+				42D9CF97261BA08700E4435A /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		42D9CF97261BA08700E4435A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42D9CF98261BA09000E4435A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		42D9CF99261BA0AD00E4435A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				42D9CF9C261BA11300E4435A /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		42D9CF9A261BA0FB00E4435A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				42D9CF9B261BA10C00E4435A /* Utility */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		42D9CF9B261BA10C00E4435A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		42D9CF9C261BA11300E4435A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
